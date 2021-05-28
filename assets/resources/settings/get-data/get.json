@@ -1,0 +1,857 @@
+{
+    "settings": {
+        "setting": {
+            "ico_type_src": "http:\/\/opencart\/image\/cache\/no_image-100x100.png",
+            "ico_type_placeholder": "http:\/\/opencart\/image\/cache\/no_image-100x100.png",
+            "allow_detail_types": "1",
+            "allow_detail_title": "1",
+            "allow_in_region": "1",
+            "allow_int_deliver": "1",
+            "pa": "0",
+            "allow_restrict_notify": "1",
+            "append_cod_to_total": "0",
+            "cache_dir": "system\/storage\/cache",
+            "cache_valid": "600",
+            "city_as_pindex": "0",
+            "cs": "utf-8",
+            "cost": "",
+            "default_from": "125040",
+            "default_weight": [
+                "2",
+                "500"
+            ],
+            "d": "",
+            "discount": "",
+            "error_log": "1",
+            "error_log_send": "10",
+            "geo_zone_id": "0",
+            "increase_time_shipping": {
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": "",
+                "EMS": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": ""
+            },
+            "license_number": "",
+            "limit_total_sum_for_type": {
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": "",
+                "EMS": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": ""
+            },
+            "limit_total_shipping_free": {
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "15",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "100",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": "450",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": "",
+                "EMS": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": ""
+            },
+            "limit_total_shipping": "0",
+            "limit_total_weight_for_type": {
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": "",
+                "EMS": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": ""
+            },
+            "limit_total_weight_for_type_int": {
+                "\u041c\u0436\u0434\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u0410\u0432\u0438\u0430": "",
+                "EMS_\u041c\u0436\u0434\u0422\u043e\u0432\u0430\u0440\u044b": ""
+            },
+            "markup_of_type": {
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": "",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": "",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": "",
+                "EMS": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": "",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": "",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": ""
+            },
+            "markup_of_type_int": {
+                "\u041c\u0436\u0434\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u0410\u0432\u0438\u0430": "",
+                "EMS_\u041c\u0436\u0434\u0422\u043e\u0432\u0430\u0440\u044b": ""
+            },
+            "key_postcalc": "",
+            "ml": "a@larionov.me",
+            "name": "\u041f\u043e\u0447\u0442\u0430 \u0420\u043e\u0441\u0441\u0438\u0438",
+            "hide_from": "0",
+            "hide_to": "0",
+            "ib": "f",
+            "ico_type": "catalog\/paymetod\/russian-post.png",
+            "ico_pos": "0",
+            "is_show_errors_postcalc": "0",
+            "pr": "150",
+            "pk": "",
+            "co": "1",
+            "is_free_tariff": "0",
+            "log": "1",
+            "r": "1",
+            "rate": "",
+            "send_cost_in_request": "1",
+            "servers": "api.postcalc.ru",
+            "show_cost_deliver": "1",
+            "show_time": "1",
+            "show_cod": "0",
+            "source": "mysql",
+            "st": "opencart",
+            "status": "1",
+            "store": [
+                "0"
+            ],
+            "sort_order": "3",
+            "text_message": "",
+            "text_limit_total_shipping": "",
+            "type": [
+                "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c",
+                "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441",
+                "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441",
+                "EMS",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435",
+                "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440",
+                "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440",
+                "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441"
+            ],
+            "type_outside": [
+                "\u041c\u0436\u0434\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u0410\u0432\u0438\u0430",
+                "EMS_\u041c\u0436\u0434\u0422\u043e\u0432\u0430\u0440\u044b"
+            ],
+            "timeout": "5",
+            "version_module": "3.1.0-dev1==",
+            "weight_class_gramm": "2"
+        },
+        "blocks": {
+            "text_options_common": [
+                "name",
+                "store",
+                "status",
+                "sort_order",
+                "log",
+                "error_log",
+                "error_log_send",
+                "cache_dir",
+                "cache_valid"
+            ],
+            "text_options_calc_view": [
+                "weight_class_gramm",
+                "geo_zone_id",
+                "ib",
+                "r",
+                "pr",
+                "pk",
+                "cost",
+                "limit_total_shipping_free",
+                "limit_total_shipping",
+                "text_limit_total_shipping",
+                "markup_of_type",
+                "markup_of_type_int",
+                "discount",
+                "rate",
+                "increase_time_shipping",
+                "default_weight",
+                "allow_in_region",
+                "allow_int_deliver",
+                "hide_from",
+                "hide_to",
+                "allow_detail_title",
+                "allow_detail_types",
+                "show_time",
+                "show_cod",
+                "show_cost_deliver",
+                "append_cod_to_total",
+                "send_cost_in_request",
+                "pa",
+                "allow_restrict_notify",
+                "ico_type",
+                "ico_pos",
+                "text_message"
+            ],
+            "text_options_postcalc": [
+                "type",
+                "limit_total_sum_for_type",
+                "limit_total_weight_for_type",
+                "type_outside",
+                "limit_total_weight_for_type_int",
+                "source",
+                "st",
+                "ml",
+                "key_postcalc",
+                "cs",
+                "d",
+                "default_from",
+                "is_free_tariff",
+                "co",
+                "timeout",
+                "is_show_errors_postcalc",
+                "servers",
+                "city_as_pindex"
+            ]
+        },
+        "fields": {
+            "allow_detail_types": {
+                "type": "switch"
+            },
+            "allow_detail_title": {
+                "type": "switch"
+            },
+            "allow_in_region": {
+                "type": "switch"
+            },
+            "allow_int_deliver": {
+                "type": "switch"
+            },
+            "pa": {
+                "type": "switch",
+                "in_query_postcalc": true
+            },
+            "allow_restrict_notify": {
+                "type": "switch"
+            },
+            "append_cod_to_total": {
+                "type": "switch"
+            },
+            "cache_dir": {
+                "type": "text",
+                "status_value": "default",
+                "value": "system\/storage\/cache",
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists",
+                "input_group": {
+                    "before": "\/var\/www\/htdocs\/opencart\/",
+                    "after": "\/"
+                }
+            },
+            "cache_valid": {
+                "type": "text",
+                "status_value": "default",
+                "value": "600"
+            },
+            "city_as_pindex": {
+                "type": "switch",
+                "status_value": "default",
+                "value": "1",
+                "in_query_postcalc": true
+            },
+            "cs": {
+                "type": "select",
+                "data": {
+                    "entry_cs_text_win": "windows-1251",
+                    "entry_cs_text_utf": "utf-8"
+                },
+                "status_value": "fixed",
+                "value": "utf-8",
+                "in_query_postcalc": true
+            },
+            "cost": {
+                "type": "text",
+                "validation_isRequired": false,
+                "validation_status": true,
+                "condition": "regexp",
+                "regexp": "\/^[0-9\\.\\,]+$\/"
+            },
+            "default_from": {
+                "type": "text",
+                "in_query_postcalc": true,
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "default_weight": {
+                "type": "radio",
+                "data": {
+                    "error_default_weight_always": "1",
+                    "error_default_weight_never": "0",
+                    "error_default_weight_if_empty_card": "2"
+                },
+                "extension": {
+                    "type": "text",
+                    "validation_isRequired": true,
+                    "validation_status": true,
+                    "condition": "exists"
+                },
+                "in_query_postcalc": true,
+                "validation_isRequired": false,
+                "validation_status": true,
+                "condition": "ignore"
+            },
+            "d": {
+                "type": "text",
+                "in_query_postcalc": true
+            },
+            "discount": {
+                "type": "text",
+                "validation_isRequired": false,
+                "validation_status": true,
+                "condition": "ignore"
+            },
+            "error_log": {
+                "type": "switch"
+            },
+            "error_log_send": {
+                "type": "text",
+                "status_value": "default",
+                "value": "10"
+            },
+            "geo_zone_id": {
+                "type": "select",
+                "data_source": {
+                    "type": "common",
+                    "name": "geo_zones",
+                    "keys": {
+                        "value": "geo_zone_id",
+                        "label": "name"
+                    }
+                },
+                "data": {
+                    "text_all_zones": "0"
+                },
+                "in_query_postcalc": false
+            },
+            "increase_time_shipping": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type",
+                "validation_isRequired": false
+            },
+            "license_number": [],
+            "limit_total_sum_for_type": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type",
+                "validation_isRequired": false
+            },
+            "limit_total_shipping_free": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type",
+                "validation_isRequired": false
+            },
+            "limit_total_shipping": {
+                "type": "text",
+                "status_value": "default",
+                "value": "0"
+            },
+            "limit_total_weight_for_type": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type",
+                "validation_isRequired": false
+            },
+            "limit_total_weight_for_type_int": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "outside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type_outside",
+                "validation_isRequired": false
+            },
+            "markup_of_type": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type",
+                "validation_isRequired": false
+            },
+            "markup_of_type_int": {
+                "type": "textbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "outside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "check_exists_source_name": "type_outside",
+                "validation_isRequired": false
+            },
+            "key_postcalc": {
+                "type": "text",
+                "in_query_postcalc": true,
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "ml": {
+                "type": "text",
+                "in_query_postcalc": true,
+                "status_value": "fixed",
+                "value": "a@larionov.me",
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "name": {
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists",
+                "type": "text"
+            },
+            "hide_from": {
+                "type": "switch"
+            },
+            "hide_to": {
+                "type": "switch"
+            },
+            "ib": {
+                "in_query_postcalc": true,
+                "type": "select",
+                "data": {
+                    "entry_ib_text_full": "f",
+                    "entry_ib_text_part": "p"
+                },
+                "add2Label": "(<a href=\"http:\/\/postcalc.ru\/faq.html#insurance\" target=\"_blank\">\u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435<\/a>)"
+            },
+            "ico_type": {
+                "type": "source",
+                "vars_printf": [
+                    "ico_type_src",
+                    "ico_type_placeholder",
+                    "ico_type",
+                    "text_browse",
+                    "text_clear"
+                ],
+                "data": {
+                    "tpl": "\r\n\t\t\t\t\t<a\r\n\t\t\t\t\t\thref=\"\"\r\n\t\t\t\t\t\tid=\"thumb-ico\"\r\n\t\t\t\t\t\tdata-toggle=\"image\"\r\n\t\t\t\t\t\tclass=\"img-thumbnail\"\r\n\t\t\t\t\t>\r\n\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\tsrc=\"%s\"\r\n\t\t\t\t\t\t\talt=\"\"\r\n\t\t\t\t\t\t\ttitle=\"\"\r\n\t\t\t\t\t\t\tdata-placeholder=\"%s\"\r\n\t\t\t\t\t\t\t\/>\r\n\t\t\t\t\t<\/a>\r\n\t\t\t\t\t<input\r\n\t\t\t\t\t\ttype=\"hidden\"\r\n\t\t\t\t\t\tname=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\tvalue=\"%s\"\r\n\t\t\t\t\t\tid=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\/>\r\n\t\t\t\t",
+                    "tplLessV2": "\r\n\t\t\t\t\t<div class=\"image\">\r\n\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\tsrc=\"%s\"\r\n\t\t\t\t\t\t\talt=\"\"\r\n\t\t\t\t\t\t\tid=\"thumb-logo\"\r\n\t\t\t\t\t\t\tdata-placeholder=\"%s\"\r\n\t\t\t\t\t\t\/>\r\n\t\t\t\t\t\t<input\r\n\t\t\t\t\t\t\ttype=\"hidden\"\r\n\t\t\t\t\t\t\tname=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\t\tvalue=\"%s\"\r\n\t\t\t\t\t\t\tid=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\t\/>\r\n\t\t\t\t\t\t<br \/>\r\n\t\t\t\t\t\t<a class=\"image-upload\">\r\n\t\t\t\t\t\t\t%s\r\n\t\t\t\t\t\t<\/a>\r\n\t\t\t\t\t\t&nbsp;&nbsp;|&nbsp;&nbsp;\r\n\t\t\t\t\t\t<a class=\"resetImage\">\r\n\t\t\t\t\t\t\t%s\r\n\t\t\t\t\t\t<\/a>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t",
+                    "twig": "\r\n\t\t\t\t\t<a\r\n\t\t\t\t\t\thref=\"\"\r\n\t\t\t\t\t\tid=\"thumb-ico\"\r\n\t\t\t\t\t\tdata-toggle=\"image\"\r\n\t\t\t\t\t\tclass=\"img-thumbnail\"\r\n\t\t\t\t\t>\r\n\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\tsrc=\"{{ shipping_rospost_ico_type_src }}\"\r\n\t\t\t\t\t\t\talt=\"\"\r\n\t\t\t\t\t\t\ttitle=\"\"\r\n\t\t\t\t\t\t\tdata-placeholder=\"{{ shipping_rospost_ico_type_placeholder }}\"\r\n\t\t\t\t\t\t\/>\r\n\t\t\t\t\t<\/a>\r\n\t\t\t\t\t<input\r\n\t\t\t\t\t\ttype=\"hidden\"\r\n\t\t\t\t\t\tname=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\tvalue=\"{{ shipping_rospost_ico_type }}\"\r\n\t\t\t\t\t\tid=\"shipping_rospost_ico_type\"\r\n\t\t\t\t\t\/>\r\n\t\t\t\t"
+                },
+                "exclude": false
+            },
+            "ico_size": [],
+            "ico_pos": {
+                "type": "radio",
+                "data": {
+                    "text_ico_before": "1",
+                    "text_ico_after": "0"
+                }
+            },
+            "is_show_errors_postcalc": {
+                "type": "switch"
+            },
+            "pr": {
+                "type": "text",
+                "in_query_postcalc": true
+            },
+            "pk": {
+                "type": "text",
+                "in_query_postcalc": true
+            },
+            "co": {
+                "type": "switch",
+                "in_query_postcalc": true
+            },
+            "is_free_tariff": {
+                "type": "switch",
+                "validation_isRequired": true
+            },
+            "log": {
+                "type": "switch"
+            },
+            "r": {
+                "type": "text",
+                "in_query_postcalc": true
+            },
+            "rate": {
+                "type": "textarea"
+            },
+            "send_cost_in_request": {
+                "type": "switch"
+            },
+            "servers": {
+                "type": "textarea",
+                "status_value": "default",
+                "value": "test.postcalc.ru",
+                "in_query_postcalc": true,
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "show_cost_deliver": {
+                "type": "switch"
+            },
+            "show_time": {
+                "type": "switch"
+            },
+            "show_cod": {
+                "type": "switch"
+            },
+            "source": {
+                "type": "text",
+                "status_value": "fixed",
+                "value": "mysql",
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "st": {
+                "type": "text",
+                "in_query_postcalc": true,
+                "status_value": "fixed",
+                "value": "opencart",
+                "validation_isRequired": true,
+                "validation_status": true,
+                "condition": "exists"
+            },
+            "status": {
+                "type": "switch"
+            },
+            "store": {
+                "type": "checkbox",
+                "data": {
+                    "text_default": "0"
+                },
+                "data_source": {
+                    "type": "common",
+                    "name": "stores",
+                    "keys": {
+                        "value": "store_id",
+                        "label": "name"
+                    }
+                }
+            },
+            "sort_order": {
+                "type": "text"
+            },
+            "text_message": {
+                "type": "textarea"
+            },
+            "text_limit_total_shipping": {
+                "type": "textarea"
+            },
+            "type": {
+                "type": "checkbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "inside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "validation_isRequired": true
+            },
+            "type_outside": {
+                "type": "checkbox",
+                "data": [],
+                "data_source": {
+                    "type": "module",
+                    "name": "outside_post",
+                    "keys": {
+                        "label": "title"
+                    }
+                },
+                "validation_isRequired": true
+            },
+            "timeout": {
+                "type": "text",
+                "status_value": "default",
+                "value": "5"
+            },
+            "version_module": [],
+            "weight_class_gramm": {
+                "type": "select",
+                "data_source": {
+                    "type": "common",
+                    "name": "weight_classes",
+                    "keys": {
+                        "value": "weight_class_id",
+                        "label": "title"
+                    }
+                },
+                "data": [],
+                "in_query_postcalc": true
+            }
+        },
+        "outside_post": {
+            "\u041c\u0436\u0434\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": {
+                "id": "ib",
+                "key": "i4",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\/\u043f\u0438\u0441\u044c\u043c\u043e"
+            },
+            "\u041c\u0436\u0434\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\u0410\u0432\u0438\u0430": {
+                "id": "iba",
+                "key": "i5",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0430\u0432\u0438\u0430\u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\/\u043f\u0438\u0441\u044c\u043c\u043e"
+            },
+            "\u041c\u0436\u0434\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f": {
+                "id": "ibr",
+                "key": "i6",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\/\u043f\u0438\u0441\u044c\u043c\u043e \u0437\u0430\u043a\u0430\u0437\u043d\u0430\u044f"
+            },
+            "\u041c\u0436\u0434\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\u0410\u0432\u0438\u0430\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f": {
+                "id": "ibar",
+                "key": "i7",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0430\u0432\u0438\u0430\u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c\/\u043f\u0438\u0441\u044c\u043c\u043e \u0437\u0430\u043a\u0430\u0437\u043d\u0430\u044f"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u0448\u043e\u043a\u041c": {
+                "id": "im",
+                "key": "i0",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u0448\u043e\u043a \u041c"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u0448\u043e\u043a\u041c\u0410\u0432\u0438\u0430": {
+                "id": "ima",
+                "key": "i1",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u0448\u043e\u043a \u041c \u0430\u0432\u0438\u0430"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u0448\u043e\u043a\u041c\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0439": {
+                "id": "imr",
+                "key": "i2",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u0448\u043e\u043a \u041c \u0437\u0430\u043a\u0430\u0437\u043d\u043e\u0439"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u0448\u043e\u043a\u041c\u0410\u0432\u0438\u0430\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0439": {
+                "id": "imar",
+                "key": "i3",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u0448\u043e\u043a \u041c \u0430\u0432\u0438\u0430 \u0437\u0430\u043a\u0430\u0437\u043d\u043e\u0439"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u043b\u043a\u0438\u0439\u041f\u0430\u043a\u0435\u0442": {
+                "id": "is",
+                "key": "i8",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u043b\u043a\u0438\u0439 \u043f\u0430\u043a\u0435\u0442"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u043b\u043a\u0438\u0439\u041f\u0430\u043a\u0435\u0442\u0410\u0432\u0438\u0430": {
+                "id": "isa",
+                "key": "i9",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u043b\u043a\u0438\u0439 \u043f\u0430\u043a\u0435\u0442 \u0430\u0432\u0438\u0430"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u043b\u043a\u0438\u0439\u041f\u0430\u043a\u0435\u0442\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0439": {
+                "id": "isr",
+                "key": "i10",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u043b\u043a\u0438\u0439 \u043f\u0430\u043a\u0435\u0442 \u0437\u0430\u043a\u0430\u0437\u043d\u043e\u0439"
+            },
+            "\u041c\u0436\u0434\u041c\u0435\u043b\u043a\u0438\u0439\u041f\u0430\u043a\u0435\u0442\u0410\u0432\u0438\u0430\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0439": {
+                "id": "isar",
+                "key": "i11",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439 \u043c\u0435\u043b\u043a\u0438\u0439 \u043f\u0430\u043a\u0435\u0442 \u0430\u0432\u0438\u0430 \u0437\u0430\u043a\u0430\u0437\u043d\u043e\u0439"
+            },
+            "\u041c\u0436\u0434\u041f\u043e\u0441\u044b\u043b\u043a\u0430": {
+                "id": "ip",
+                "key": "i12",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u043f\u043e\u0441\u044b\u043b\u043a\u0430"
+            },
+            "\u041c\u0436\u0434\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u0410\u0432\u0438\u0430": {
+                "id": "ipa",
+                "key": "i13",
+                "title": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u0430\u044f \u0430\u0432\u0438\u0430\u043f\u043e\u0441\u044b\u043b\u043a\u0430"
+            },
+            "EMS_\u041c\u0436\u0434\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b": {
+                "id": "ied",
+                "key": "i14",
+                "title": "\u0415MS \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0435 - \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b"
+            },
+            "EMS_\u041c\u0436\u0434\u0422\u043e\u0432\u0430\u0440\u044b": {
+                "id": "iem",
+                "key": "i15",
+                "title": "\u0415MS \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0435 - \u0442\u043e\u0432\u0430\u0440\u044b"
+            }
+        },
+        "inside_post": {
+            "\u041f\u0440\u043e\u0441\u0442\u043e\u0435\u041f\u0438\u0441\u044c\u043c\u043e": {
+                "id": "ls",
+                "key": "1",
+                "title": "\u041f\u0440\u043e\u0441\u0442\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e"
+            },
+            "\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0435\u041f\u0438\u0441\u044c\u043c\u043e": {
+                "id": "lr",
+                "key": "2",
+                "title": "\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e"
+            },
+            "\u0426\u0435\u043d\u043d\u043e\u0435\u041f\u0438\u0441\u044c\u043c\u043e": {
+                "id": "lv",
+                "key": "3",
+                "title": "\u0426\u0435\u043d\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e"
+            },
+            "\u041f\u0440\u043e\u0441\u0442\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": {
+                "id": "bs",
+                "key": "6",
+                "title": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c"
+            },
+            "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": {
+                "id": "br",
+                "key": "7",
+                "title": "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c"
+            },
+            "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c": {
+                "id": "bv",
+                "key": "9",
+                "title": "\u0426\u0435\u043d\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c"
+            },
+            "\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0435\u041f\u0438\u0441\u044c\u043c\u043e1\u041a\u043b\u0430\u0441\u0441": {
+                "id": "l1r",
+                "key": "4",
+                "title": "\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e 1 \u043a\u043b\u0430\u0441\u0441\u0430"
+            },
+            "\u0426\u0435\u043d\u043d\u043e\u0435\u041f\u0438\u0441\u044c\u043c\u043e1\u041a\u043b\u0430\u0441\u0441": {
+                "id": "l1v",
+                "key": "5",
+                "title": "\u0426\u0435\u043d\u043d\u043e\u0435 \u043f\u0438\u0441\u044c\u043c\u043e 1 \u043a\u043b\u0430\u0441\u0441\u0430"
+            },
+            "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": {
+                "id": "b1r",
+                "key": "8",
+                "title": "\u0417\u0430\u043a\u0430\u0437\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c 1 \u043a\u043b\u0430\u0441\u0441"
+            },
+            "\u0426\u0435\u043d\u043d\u0430\u044f\u0411\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c1\u041a\u043b\u0430\u0441\u0441": {
+                "id": "b1v",
+                "key": "11",
+                "title": "\u0426\u0435\u043d\u043d\u0430\u044f \u0431\u0430\u043d\u0434\u0435\u0440\u043e\u043b\u044c 1 \u043a\u043b\u0430\u0441\u0441"
+            },
+            "\u0426\u0435\u043d\u043d\u0430\u044f\u041f\u043e\u0441\u044b\u043b\u043a\u0430": {
+                "id": "pv",
+                "key": "10",
+                "title": "\u0426\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u0441\u044b\u043b\u043a\u0430"
+            },
+            "\u041f\u043e\u0441\u044b\u043b\u043a\u04301\u041a\u043b\u0430\u0441\u0441": {
+                "id": "p1",
+                "key": "12",
+                "title": "\u041f\u043e\u0441\u044b\u043b\u043a\u0430 1 \u043a\u043b\u0430\u0441\u0441\u0430"
+            },
+            "EMS": {
+                "id": "em",
+                "key": "13",
+                "title": "\u041a\u0443\u0440\u044c\u0435\u0440\u0441\u043a\u0430\u044f \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430 EMS"
+            },
+            "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435": {
+                "id": "emo",
+                "key": "18",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"EMS \u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\" \u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u0434\u043e \u0426\u0412\u041f\u041f"
+            },
+            "EMS\u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\u041a\u0443\u0440\u044c\u0435\u0440": {
+                "id": "emoc",
+                "key": "19",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"EMS \u041e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435\" \u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u043a\u043b\u0438\u0435\u043d\u0442\u0443 \u043a\u0443\u0440\u044c\u0435\u0440\u043e\u043c"
+            },
+            "\u041f\u043e\u0441\u044b\u043b\u043a\u0430\u041e\u043d\u043b\u0430\u0439\u043d": {
+                "id": "po",
+                "key": "14",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"\u041f\u043e\u0441\u044b\u043b\u043a\u0430 \u041e\u043d\u043b\u0430\u0439\u043d\" \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432"
+            },
+            "\u041a\u0443\u0440\u044c\u0435\u0440\u041e\u043d\u043b\u0430\u0439\u043d": {
+                "id": "co",
+                "key": "15",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"\u041a\u0443\u0440\u044c\u0435\u0440 \u041e\u043d\u043b\u0430\u0439\u043d\" \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432"
+            },
+            "\u0415\u041a\u041e\u041c": {
+                "id": "ek",
+                "key": "16",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"\u0415\u041a\u041e\u041c\" \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u0432 \u041f\u0412\u0417\/\u0410\u041f\u0421 \u041f\u043e\u0447\u0442\u044b \u0420\u043e\u0441\u0441\u0438\u0438"
+            },
+            "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440": {
+                "id": "bc",
+                "key": "20",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"\u0411\u0438\u0437\u043d\u0435\u0441-\u041a\u0443\u0440\u044c\u0435\u0440\" \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u041f\u043e\u0447\u0442\u044b \u0420\u043e\u0441\u0441\u0438\u0438"
+            },
+            "\u0411\u0438\u0437\u043d\u0435\u0441\u041a\u0443\u0440\u044c\u0435\u0440\u042d\u043a\u0441\u043f\u0440\u0435\u0441\u0441": {
+                "id": "bce",
+                "key": "21",
+                "title": "\u0423\u0441\u043b\u0443\u0433\u0430 \"\u0411\u0438\u0437\u043d\u0435\u0441-\u041a\u0443\u0440\u044c\u0435\u0440 \u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441\" \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432 \u041f\u043e\u0447\u0442\u044b \u0420\u043e\u0441\u0441\u0438\u0438"
+            },
+            "EMS_PT": {
+                "id": "empt",
+                "key": "17",
+                "title": "EMS PT \u0434\u043b\u044f \u043a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0445 \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432"
+            }
+        }
+    },
+    "error": {
+        "common": {
+            "error_warning": ""
+        },
+        "module": {
+            "error_cache_dir": "",
+            "error_default_from": "",
+            "error_key_postcalc": "",
+            "error_ml": "",
+            "error_name": "",
+            "error_is_free_tariff": "",
+            "error_servers": "",
+            "error_source": "",
+            "error_st": "",
+            "error_type": "",
+            "error_type_outside": ""
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "jsx": "react-jsx",
+        "target": "esnext",
+        "strict": false,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "outDir": "./out",
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "baseUrl": "./src",
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true
+    },
+    "include": ["src/**/*", "typings"],
+    "exclude": ["node_modules"]
+}
